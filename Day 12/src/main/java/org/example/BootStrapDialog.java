@@ -15,8 +15,11 @@ public class BootStrapDialog {
         driver.get("https://getbootstrap.com/docs/5.3/components/modal");
         ////button[@data-bs-target='#exampleModalLive']
         Thread.sleep(2000);
-        js.executeScript("document.querySelector(\"button[data-bs-target='#exampleModalLive']\").scrollIntoView();");
-        driver.findElement(By.cssSelector("button[data-bs-target='#exampleModalLive']")).click();
+       // js.executeScript("document.querySelector(\"button[data-bs-target='#exampleModalLive']\").scrollIntoView();");
+       // driver.findElement(By.cssSelector("button[data-bs-target='#exampleModalLive']")).click();
+
+        System.out.println("Clicking launch modal button");
+        driver.findElement(By.xpath("//button[@data-bs-target='#exampleModalLive']")).click();
 //        Thread.sleep(3000);
 //        driver.findElement(By.xpath("//div[@id='exampleModalLive']//div[@class='modal-footer']/button")).click();
     }
