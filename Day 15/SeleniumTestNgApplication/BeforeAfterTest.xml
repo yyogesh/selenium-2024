@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Facebook">
+    <test verbose="2" name="Login" preserve-order="true">
+        <classes>
+            <class name="com.example.testng.BeforeAfterTest.BeforeTestMethod"/>
+            <class name="com.example.testng.BeforeAfterTest.FacebookLogin"/>
+            <class name="com.example.testng.BeforeAfterTest.FacebookSearch">
+                <methods>
+                    <exclude name="searchPost"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="google">
+        <classes>
+          <class name="com.example.testng.DemoTestNG"/>
+        </classes>
+    </test>
+</suite>
+
+<!--suite test class method-->
