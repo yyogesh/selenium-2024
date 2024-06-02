@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parameter">
+    <parameter name="searchKey" value="Selenium" />
+    <parameter name="author" value="ABC" />
+    <test name="ParameterMethod">
+        <parameter name="searchKey" value="Selenium1" />
+        <parameter name="author" value="ABC2" />
+        <classes>
+            <class name="com.example.testng.parameter.ParameterDemo"/>
+        </classes>
+    </test>
+</suite>
+
+        <!--suite test class method-->
