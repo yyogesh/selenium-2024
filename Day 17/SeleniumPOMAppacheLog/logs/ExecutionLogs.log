@@ -1,0 +1,8 @@
+09.06.2024 09:20:18,676 INFO  LoginPage:33 - Username is entered in username text box
+09.06.2024 09:20:18,738 WARN  LoginPage:36 - Password is entered in Password text box
+09.06.2024 09:20:18,784 INFO  LoginPage:39 - Login button is clicked.
+09.06.2024 09:27:43,276 INFO  LoginPage:34 - Username is entered in username text box
+09.06.2024 09:28:08,203 INFO  LoginPage:34 - Username is entered in username text box
+09.06.2024 09:29:05,775 INFO  LoginPage:34 - Username is entered in username text box
+09.06.2024 09:29:05,942 WARN  LoginPage:38 - Password is entered in Password text box
+09.06.2024 09:29:07,108 INFO  LoginPage:42 - Login button is clicked.
