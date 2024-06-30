@@ -16,4 +16,7 @@ public class Constants {
     public static String EXTENT_REPORT_NAME = "ABC Migration test report";
     public static String EXTENT_REPORT_DOCUMENT_TITLE = "ABC Migration execution report";
 
+    public static final String MOCK_QA_DATA_FILE = RESOURCE_FOLDER_PATH + "\\mockData\\qa.properties";
+    public static final String MOCK_PROD_DATA_FILE = RESOURCE_FOLDER_PATH + "\\mockData\\prod.properties";
+
 }

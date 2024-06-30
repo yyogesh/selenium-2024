@@ -60,5 +60,4 @@ public class ExtentFactory {
                 MediaEntityBuilder.createScreenCaptureFromBase64String(captureApplicationScreenshot()).build());
 
     }
-
 }

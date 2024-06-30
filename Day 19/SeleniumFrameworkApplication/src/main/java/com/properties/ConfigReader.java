@@ -29,6 +29,8 @@ public class ConfigReader {
         } catch (IOException ex) {
             logger.error("Config file load error");
         }
+
+        Constants.ENVIROMENT = getPropertyValue("environment");
     }
 
     private static ConfigReader instance = new ConfigReader();
